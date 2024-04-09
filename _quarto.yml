@@ -1,0 +1,85 @@
+project:
+  type: website
+  render: 
+    - "*.qmd"
+  output-dir: docs
+  preview:
+    port: 4200
+
+website:
+  bread-crumbs: true
+  navbar:
+    background: primary
+    left:
+      - text: "Inicio"
+        file: index.qmd
+      - text: "Lecciones"
+        file: clases/index.qmd
+      - text: "Obtener Ayuda"
+        file: obtener_ayuda.qmd
+      - text: "Profesores"
+        file: profesores.qmd
+      - text: "FAQ"
+        file: faq.qmd
+      - text: "Código de Conducta"
+        file: codigo_conducta.qmd
+  sidebar:
+    - id: tutorials
+      title: "Clases"
+      style: "docked"
+      background: light
+      collapse-level: 2
+      contents:
+        - section: "Antes de comenzar"
+          contents:
+            - text: "Presentación"
+              href: clases/index.qmd
+            - text: "Instalación y configuración"
+              href: clases/instalacion_configuracion.qmd
+        - text: "---"
+        - section: "Semana 1"
+          contents:
+            - text: "Presentación"
+              href: clases/index.qmd
+            - text: "Instalación y configuración"
+              href: clases/instalacion_configuracion.qmd
+        - text: "---"
+
+author:
+  - name: Anthony García-Marín
+    affiliations: "Researcher | Data Analyst | Professor"
+    email: email@gmail.com
+  - name: "Carlos Aguero Barquero"
+    affiliations: "Software Engineer | RStudio Instructor | The Carpentries"
+    email: emai2@gmail.com
+copyright: 
+  statement: "Copyright nombre de los cursos. 2024. Todos los derechos reservados."
+license:
+  text: >
+    Este trabajo está licenciado bajo la Licencia Internacional 
+    Creative Commons Atribución-NoComercial-SinDerivadas 4.0 (CC BY-NC-ND 4.0).
+    Eres libre de compartir este material siempre que otorgues el crédito
+    adecuado, no lo utilices para fines comerciales, y no hagas obras derivadas.
+  type: open-access
+  url: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es
+
+
+format:
+  html:
+    grid:
+      sidebar-width: 310px
+    theme: seem-dark.scss
+    highlight-style: seem.theme
+    metadata:
+      pagetitle: "{{< meta title >}}"
+      freeze: true
+      # Enable banner style title blocks
+      title-block-banner: false
+      # Can't yet enable this because it causes "On this page" to appear on index.html
+      # even if I set its post-level `toc: false`
+      # toc: true
+      title-block-categories: false
+      toc-depth: 5
+
+metadata-files:
+  - drafts.yml

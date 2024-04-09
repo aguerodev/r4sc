@@ -1,0 +1,12 @@
+---
+title: "Obtener Ayuda"
+subtitle: "Aplicado a las ciencias sociales"
+author: ""
+lang: "es"
+toc: true
+code-line-numbers: true
+code-copy: true
+format: html
+---
+
+[link](ggoog.eomc)

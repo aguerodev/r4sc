@@ -1,0 +1,10 @@
+website:
+  drafts:
+    - index.qmd
+    - obtener_ayuda.qmd
+    - profesores.qmd
+    - faq.qmd
+    - codigo_conducta.qmd
+    - clases/index.qmd
+    - clases/instalacion_configuracion.qmd
+  draft-mode: visible

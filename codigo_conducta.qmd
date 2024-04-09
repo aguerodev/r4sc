@@ -1,0 +1,45 @@
+---
+title: "Código de conducta"
+subtitle: "Principios de respeto e inclusión para un aprendizaje colaborativo"
+author: ""
+lang: "es"
+toc: true
+code-line-numbers: true
+code-copy: true
+format: html
+---
+
+Nos comprometemos a ofrecer un ambiente educativo seguro y acogedor para todos, sin importar su experiencia, identidad o conocimiento. Este Código de Conducta establece nuestras expectativas para todos los participantes de nuestro curso en línea, así como las consecuencias para comportamientos inaceptables.
+
+## Reporte de Incidentes
+
++ Los incidentes deben reportarse a través de [un formulario anónimo](url.com), garantizando la privacidad y seguridad de quien reporta.
+
++ Cada reporte será tratado con seriedad y confidencialidad.
+
+## Comportamiento Esperado
+
++ Utilizar un lenguaje inclusivo y respetuoso.
++ Respetar distintas opiniones y experiencias.
++ Recibir y dar críticas constructivas de manera positiva.
++ Priorizar el bienestar de la comunidad educativa.
++ Actuar con cortesía y respeto hacia todos.
+
+## Comportamiento Inaceptable
+Cualquier forma de acoso, discriminación o intimidación, incluyendo pero no limitado a:
+
++ Comentarios ofensivos relacionados con género, orientación sexual, discapacidad, apariencia física, tamaño corporal, raza, religión.
++ Amenazas o insultos.
++ Atención sexual indeseada o imágenes de contenido sexual.
++ Interrupción persistente de las sesiones o comunicaciones.
+
+## Consecuencias
+
++ Los participantes que violen estas reglas serán expulsados del curso sin derecho a reembolso.
+
++ Se les prohibirá la participación en futuras actividades presenciales y en línea.
+
+
+Nos dedicamos a crear un entorno de aprendizaje positivo y enriquecedor para todos. Esperamos que todos los participantes colaboren para asegurar una experiencia educativa segura y respetuosa.
+
+

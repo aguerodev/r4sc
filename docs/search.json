@@ -1,0 +1,101 @@
+[
+  {
+    "objectID": "profesores.html",
+    "href": "profesores.html",
+    "title": "Profesores",
+    "section": "",
+    "text": "ReutilizaciónEste trabajo está licenciado bajo la Licencia Internacional  Creative Commons Atribución-NoComercial-SinDerivadas 4.0 (CC BY-NC-ND 4.0). Eres libre de compartir este material siempre que otorgues el crédito adecuado, no lo utilices para fines comerciales, y no hagas obras derivadas.\n(Ver Licencia)Derechos de autorCopyright nombre de los cursos. 2024. Todos los derechos reservados."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ciencia de datos con R",
+    "section": "",
+    "text": "ReutilizaciónEste trabajo está licenciado bajo la Licencia Internacional  Creative Commons Atribución-NoComercial-SinDerivadas 4.0 (CC BY-NC-ND 4.0). Eres libre de compartir este material siempre que otorgues el crédito adecuado, no lo utilices para fines comerciales, y no hagas obras derivadas.\n(Ver Licencia)Derechos de autorCopyright nombre de los cursos. 2024. Todos los derechos reservados."
+  },
+  {
+    "objectID": "codigo_conducta.html",
+    "href": "codigo_conducta.html",
+    "title": "Código de conducta",
+    "section": "",
+    "text": "Nos comprometemos a ofrecer un ambiente educativo seguro y acogedor para todos, sin importar su experiencia, identidad o conocimiento. Este Código de Conducta establece nuestras expectativas para todos los participantes de nuestro curso en línea, así como las consecuencias para comportamientos inaceptables."
+  },
+  {
+    "objectID": "codigo_conducta.html#reporte-de-incidentes",
+    "href": "codigo_conducta.html#reporte-de-incidentes",
+    "title": "Código de conducta",
+    "section": "Reporte de Incidentes",
+    "text": "Reporte de Incidentes\n\nLos incidentes deben reportarse a través de un formulario anónimo, garantizando la privacidad y seguridad de quien reporta.\nCada reporte será tratado con seriedad y confidencialidad."
+  },
+  {
+    "objectID": "codigo_conducta.html#comportamiento-esperado",
+    "href": "codigo_conducta.html#comportamiento-esperado",
+    "title": "Código de conducta",
+    "section": "Comportamiento Esperado",
+    "text": "Comportamiento Esperado\n\nUtilizar un lenguaje inclusivo y respetuoso.\nRespetar distintas opiniones y experiencias.\nRecibir y dar críticas constructivas de manera positiva.\nPriorizar el bienestar de la comunidad educativa.\nActuar con cortesía y respeto hacia todos."
+  },
+  {
+    "objectID": "codigo_conducta.html#comportamiento-inaceptable",
+    "href": "codigo_conducta.html#comportamiento-inaceptable",
+    "title": "Código de conducta",
+    "section": "Comportamiento Inaceptable",
+    "text": "Comportamiento Inaceptable\nCualquier forma de acoso, discriminación o intimidación, incluyendo pero no limitado a:\n\nComentarios ofensivos relacionados con género, orientación sexual, discapacidad, apariencia física, tamaño corporal, raza, religión.\nAmenazas o insultos.\nAtención sexual indeseada o imágenes de contenido sexual.\nInterrupción persistente de las sesiones o comunicaciones."
+  },
+  {
+    "objectID": "codigo_conducta.html#consecuencias",
+    "href": "codigo_conducta.html#consecuencias",
+    "title": "Código de conducta",
+    "section": "Consecuencias",
+    "text": "Consecuencias\n\nLos participantes que violen estas reglas serán expulsados del curso sin derecho a reembolso.\nSe les prohibirá la participación en futuras actividades presenciales y en línea.\n\nNos dedicamos a crear un entorno de aprendizaje positivo y enriquecedor para todos. Esperamos que todos los participantes colaboren para asegurar una experiencia educativa segura y respetuosa."
+  },
+  {
+    "objectID": "clases/index.html",
+    "href": "clases/index.html",
+    "title": "Ciencia de datos con R",
+    "section": "",
+    "text": "parte 1\n\n\nparte 2\n\n\nparte 3\n(Wickham 2014)\n\n\n\n\n\nReferencias\n\nWickham, Hadley. 2014. «Tidy Data». Journal of Statistical Software 59 (10). https://doi.org/10.18637/jss.v059.i10.\n\nReutilizaciónEste trabajo está licenciado bajo la Licencia Internacional  Creative Commons Atribución-NoComercial-SinDerivadas 4.0 (CC BY-NC-ND 4.0). Eres libre de compartir este material siempre que otorgues el crédito adecuado, no lo utilices para fines comerciales, y no hagas obras derivadas.\n(Ver Licencia)Derechos de autorCopyright nombre de los cursos. 2024. Todos los derechos reservados.",
+    "crumbs": [
+      "Lecciones",
+      "Antes de comenzar",
+      "Presentación"
+    ]
+  },
+  {
+    "objectID": "clases/instalacion_configuracion.html#instalación-de-r-y-rstudio-en-mac",
+    "href": "clases/instalacion_configuracion.html#instalación-de-r-y-rstudio-en-mac",
+    "title": "Instalación y configuración",
+    "section": "Instalación de R y RStudio en Mac",
+    "text": "Instalación de R y RStudio en Mac",
+    "crumbs": [
+      "Lecciones",
+      "Antes de comenzar",
+      "Instalación y configuración"
+    ]
+  },
+  {
+    "objectID": "clases/instalacion_configuracion.html#solicitar-asistencia-tecnica",
+    "href": "clases/instalacion_configuracion.html#solicitar-asistencia-tecnica",
+    "title": "Instalación y configuración",
+    "section": "Solicitar asistencia tecnica",
+    "text": "Solicitar asistencia tecnica\n[@wickham_tidy_2014]",
+    "crumbs": [
+      "Lecciones",
+      "Antes de comenzar",
+      "Instalación y configuración"
+    ]
+  },
+  {
+    "objectID": "faq.html",
+    "href": "faq.html",
+    "title": "Pregutnas Frecuentes",
+    "section": "",
+    "text": "ReutilizaciónEste trabajo está licenciado bajo la Licencia Internacional  Creative Commons Atribución-NoComercial-SinDerivadas 4.0 (CC BY-NC-ND 4.0). Eres libre de compartir este material siempre que otorgues el crédito adecuado, no lo utilices para fines comerciales, y no hagas obras derivadas.\n(Ver Licencia)Derechos de autorCopyright nombre de los cursos. 2024. Todos los derechos reservados."
+  },
+  {
+    "objectID": "obtener_ayuda.html",
+    "href": "obtener_ayuda.html",
+    "title": "Obtener Ayuda",
+    "section": "",
+    "text": "link\n\n\n\nReutilizaciónEste trabajo está licenciado bajo la Licencia Internacional  Creative Commons Atribución-NoComercial-SinDerivadas 4.0 (CC BY-NC-ND 4.0). Eres libre de compartir este material siempre que otorgues el crédito adecuado, no lo utilices para fines comerciales, y no hagas obras derivadas.\n(Ver Licencia)Derechos de autorCopyright nombre de los cursos. 2024. Todos los derechos reservados."
+  }
+]

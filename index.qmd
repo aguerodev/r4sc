@@ -1,0 +1,8 @@
+---
+title: "Ciencia de datos con R"
+subtitle: "Aplicado a las ciencias sociales"
+lang: "es"
+toc: true
+comments: false
+author: ""
+---

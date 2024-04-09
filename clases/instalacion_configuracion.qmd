@@ -1,0 +1,18 @@
+---
+title: "Instalación y configuración"
+subtitle: "Instalación y configuración de R y RStudio"
+date: 2024-02-08
+lang: "es"
+toc: true
+code-line-numbers: true
+code-copy: true
+format: html
+---
+
+## Instalación de R y RStudio en Windows
+
+## Instalación de R y RStudio en Mac
+
+## Solicitar asistencia tecnica
+
+[@wickham_tidy_2014]

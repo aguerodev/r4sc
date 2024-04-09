@@ -1,0 +1,19 @@
+---
+title: "Ciencia de datos con R"
+subtitle: "Aplicado a las ciencias sociales"
+date: 2024-02-08
+lang: "es"
+toc: true
+code-line-numbers: true
+code-copy: true
+format: html
+bibliography: references.bib
+---
+
+# parte 1
+
+# parte 2
+
+# parte 3
+
+[@wickham_tidy_2014]
