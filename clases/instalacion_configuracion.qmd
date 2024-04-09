@@ -9,10 +9,19 @@ code-copy: true
 format: html
 ---
 
+<link rel="stylesheet" href="https://unpkg.com/keyboard-css@1.2.2/dist/css/main.min.css" />
 
 ## Verificación de la Instalación de R y RStudio
 
 Si ya has instalado R y RStudio, puede que te preguntes si es necesario seguir los pasos de una nueva instalación. Antes de tomar una decisión, es crucial verificar que tu instalación actual esté completa y actualizada. A menudo, durante la instalación inicial, se pueden pasar por alto algunos componentes esenciales. Aquí te ofrecemos una guía para confirmar si tu instalación cumple con los requisitos necesarios.
+
+
+
+
+<p>Press <kbd class="kbc-button-sm">Ctrl</kbd> + <kbd class="kbc-button">Shift</kbd> + <kbd class="kbc-button">R</kbd> to re-render this page.</p>
+
+
+
 
 ### Para usuarios de Windows:
 
@@ -52,4 +61,3 @@ Para ayudarte a superar estos desafíos y completar el proceso con éxito, te in
 Haz clic en el siguiente enlace para programar tu reunión y comenzar tu camino hacia una experiencia tecnológica sin estrés.
 
 [Programar una reunión](https://cal.com/aprendetidyverse/soporte-tecnico){.btn .btn-outline-primary .btn role="button"} 
-*

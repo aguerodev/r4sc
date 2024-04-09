@@ -39,10 +39,8 @@ website:
         - text: "---"
         - section: "Semana 1"
           contents:
-            - text: "Presentación"
-              href: clases/index.qmd
-            - text: "Instalación y configuración"
-              href: clases/instalacion_configuracion.qmd
+            - text: "Introducción a tidyverse"
+              href: clases/intro_tidyverse.qmd
         - text: "---"
 
 author:
