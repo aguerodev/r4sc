@@ -1,6 +1,6 @@
 ---
-title: "Instalación y configuración"
-subtitle: "Instalación y configuración de R y RStudio"
+title: "Instalación y Configuración de R y RStudio"
+subtitle: "Guía Paso a Paso para Usuarios de Windows y MacOS"
 date: 2024-02-08
 lang: "es"
 toc: true
@@ -9,10 +9,47 @@ code-copy: true
 format: html
 ---
 
+
+## Verificación de la Instalación de R y RStudio
+
+Si ya has instalado R y RStudio, puede que te preguntes si es necesario seguir los pasos de una nueva instalación. Antes de tomar una decisión, es crucial verificar que tu instalación actual esté completa y actualizada. A menudo, durante la instalación inicial, se pueden pasar por alto algunos componentes esenciales. Aquí te ofrecemos una guía para confirmar si tu instalación cumple con los requisitos necesarios.
+
+### Para usuarios de Windows:
+
++ Confirma que la versión de **R** sea superior a 4.1.
++ Asegúrate de que **RStudio** esté actualizado a la última versión.
++ Verifica si tienes instalado **RTools**, un componente esencial para el desarrollo.
++ Verifica si tienes instalado **quarto** en una versión superior o igual a la 1.4
+
+### Para usuarios de Mac:
+
++ Comprueba que la versión de R sea superior a 4.1.
++ RStudio debe estar actualizado a su última versión.
++ Verifica si tienes instalado **quarto** en una versión superior o igual a la 1.4
+
+Además, para los usuarios de Mac, la instalación requiere pasos adicionales para garantizar la correcta funcionalidad de todos los paquetes. Asegúrate de tener instaladas las siguientes librerías del sistema:
+
++ gfortran
++ gcc
++ xcode
+
+Si tras esta verificación encuentras que tu sistema no cumple con alguno de estos requisitos, o tienes dudas, te recomendamos seguir los pasos de instalación nuevamente para asegurar un entorno de trabajo óptimo con R y RStudio.
+
 ## Instalación de R y RStudio en Windows
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v05TMuPezPs?si=qIrg_Uv-5qs7w9BT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Instalación de R y RStudio en Mac
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MCrs47OOp9c?si=r1QPgAXe05NfOC77" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Solicitar asistencia tecnica
 
-[@wickham_tidy_2014]
+Entendemos que enfrentarse a problemas durante la instalación y configuración de equipos tecnológicos puede resultar particularmente frustrante, especialmente si no te consideras una persona muy técnica. Sin embargo, queremos asegurarte que no estás solo en este proceso y estamos aquí para brindarte el apoyo necesario.
+
+Para ayudarte a superar estos desafíos y completar el proceso con éxito, te invitamos a agendar una reunión virtual a través de Zoom con uno de nuestros instructores. Ellos te guiarán paso a paso, asegurándose de que tu equipo quede configurado correctamente y listo para usar.
+
+Haz clic en el siguiente enlace para programar tu reunión y comenzar tu camino hacia una experiencia tecnológica sin estrés.
+
+[Programar una reunión](https://cal.com/aprendetidyverse/soporte-tecnico){.btn .btn-outline-primary .btn role="button"} 
+*

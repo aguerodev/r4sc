@@ -9,7 +9,7 @@
 <meta name="author" content="Anthony García-Marín">
 <meta name="author" content="Carlos Aguero Barquero">
 
-<title>Instalación y configuración</title>
+<title>Instalación y Configuración de R y RStudio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -190,7 +190,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#instalación-de-r-y-rstudio-en-windows" id="toc-instalación-de-r-y-rstudio-en-windows" class="nav-link active" data-scroll-target="#instalación-de-r-y-rstudio-en-windows">Instalación de R y RStudio en Windows</a></li>
+  <li><a href="#verificación-de-la-instalación-de-r-y-rstudio" id="toc-verificación-de-la-instalación-de-r-y-rstudio" class="nav-link active" data-scroll-target="#verificación-de-la-instalación-de-r-y-rstudio">Verificación de la Instalación de R y RStudio</a>
+  <ul class="collapse">
+  <li><a href="#para-usuarios-de-windows" id="toc-para-usuarios-de-windows" class="nav-link" data-scroll-target="#para-usuarios-de-windows">Para usuarios de Windows:</a></li>
+  <li><a href="#para-usuarios-de-mac" id="toc-para-usuarios-de-mac" class="nav-link" data-scroll-target="#para-usuarios-de-mac">Para usuarios de Mac:</a></li>
+  </ul></li>
+  <li><a href="#instalación-de-r-y-rstudio-en-windows" id="toc-instalación-de-r-y-rstudio-en-windows" class="nav-link" data-scroll-target="#instalación-de-r-y-rstudio-en-windows">Instalación de R y RStudio en Windows</a></li>
   <li><a href="#instalación-de-r-y-rstudio-en-mac" id="toc-instalación-de-r-y-rstudio-en-mac" class="nav-link" data-scroll-target="#instalación-de-r-y-rstudio-en-mac">Instalación de R y RStudio en Mac</a></li>
   <li><a href="#solicitar-asistencia-tecnica" id="toc-solicitar-asistencia-tecnica" class="nav-link" data-scroll-target="#solicitar-asistencia-tecnica">Solicitar asistencia tecnica</a></li>
   </ul>
@@ -201,8 +206,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../clases/index.html">Antes de comenzar</a></li><li class="breadcrumb-item"><a href="../clases/instalacion_configuracion.html">Instalación y configuración</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Instalación y configuración</h1>
-<p class="subtitle lead">Instalación y configuración de R y RStudio</p>
+<h1 class="title">Instalación y Configuración de R y RStudio</h1>
+<p class="subtitle lead">Guía Paso a Paso para Usuarios de Windows y MacOS</p>
 </div>
 
 
@@ -246,15 +251,50 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="verificación-de-la-instalación-de-r-y-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="verificación-de-la-instalación-de-r-y-rstudio">Verificación de la Instalación de R y RStudio</h2>
+<p>Si ya has instalado R y RStudio, puede que te preguntes si es necesario seguir los pasos de una nueva instalación. Antes de tomar una decisión, es crucial verificar que tu instalación actual esté completa y actualizada. A menudo, durante la instalación inicial, se pueden pasar por alto algunos componentes esenciales. Aquí te ofrecemos una guía para confirmar si tu instalación cumple con los requisitos necesarios.</p>
+<section id="para-usuarios-de-windows" class="level3">
+<h3 class="anchored" data-anchor-id="para-usuarios-de-windows">Para usuarios de Windows:</h3>
+<ul>
+<li>Confirma que la versión de <strong>R</strong> sea superior a 4.1.</li>
+<li>Asegúrate de que <strong>RStudio</strong> esté actualizado a la última versión.</li>
+<li>Verifica si tienes instalado <strong>RTools</strong>, un componente esencial para el desarrollo.</li>
+<li>Verifica si tienes instalado <strong>quarto</strong> en una versión superior o igual a la 1.4</li>
+</ul>
+</section>
+<section id="para-usuarios-de-mac" class="level3">
+<h3 class="anchored" data-anchor-id="para-usuarios-de-mac">Para usuarios de Mac:</h3>
+<ul>
+<li>Comprueba que la versión de R sea superior a 4.1.</li>
+<li>RStudio debe estar actualizado a su última versión.</li>
+<li>Verifica si tienes instalado <strong>quarto</strong> en una versión superior o igual a la 1.4</li>
+</ul>
+<p>Además, para los usuarios de Mac, la instalación requiere pasos adicionales para garantizar la correcta funcionalidad de todos los paquetes. Asegúrate de tener instaladas las siguientes librerías del sistema:</p>
+<ul>
+<li>gfortran</li>
+<li>gcc</li>
+<li>xcode</li>
+</ul>
+<p>Si tras esta verificación encuentras que tu sistema no cumple con alguno de estos requisitos, o tienes dudas, te recomendamos seguir los pasos de instalación nuevamente para asegurar un entorno de trabajo óptimo con R y RStudio.</p>
+</section>
+</section>
 <section id="instalación-de-r-y-rstudio-en-windows" class="level2">
 <h2 class="anchored" data-anchor-id="instalación-de-r-y-rstudio-en-windows">Instalación de R y RStudio en Windows</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v05TMuPezPs?si=qIrg_Uv-5qs7w9BT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
 </section>
 <section id="instalación-de-r-y-rstudio-en-mac" class="level2">
 <h2 class="anchored" data-anchor-id="instalación-de-r-y-rstudio-en-mac">Instalación de R y RStudio en Mac</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MCrs47OOp9c?si=r1QPgAXe05NfOC77" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
 </section>
 <section id="solicitar-asistencia-tecnica" class="level2">
 <h2 class="anchored" data-anchor-id="solicitar-asistencia-tecnica">Solicitar asistencia tecnica</h2>
-<p><span class="citation" data-cites="wickham_tidy_2014">[@wickham_tidy_2014]</span></p>
+<p>Entendemos que enfrentarse a problemas durante la instalación y configuración de equipos tecnológicos puede resultar particularmente frustrante, especialmente si no te consideras una persona muy técnica. Sin embargo, queremos asegurarte que no estás solo en este proceso y estamos aquí para brindarte el apoyo necesario.</p>
+<p>Para ayudarte a superar estos desafíos y completar el proceso con éxito, te invitamos a agendar una reunión virtual a través de Zoom con uno de nuestros instructores. Ellos te guiarán paso a paso, asegurándose de que tu equipo quede configurado correctamente y listo para usar.</p>
+<p>Haz clic en el siguiente enlace para programar tu reunión y comenzar tu camino hacia una experiencia tecnológica sin estrés.</p>
+<p><a href="https://cal.com/aprendetidyverse/soporte-tecnico" class="btn btn-outline-primary" role="button">Programar una reunión</a> *</p>
 
 
 </section>
