@@ -114,7 +114,7 @@ a {
     
     &:hover {
         color: $black;
-        text-decoration: underline;
+         text-decoration: underline;
     }
   }
 }
@@ -153,6 +153,11 @@ font-weight: 700;
 a sup {
   color: $blue;
 }
+
+ul li{
+       margin-top: 5px;
+       line-height: 1.5;
+    }
 
 // Navbar
 
