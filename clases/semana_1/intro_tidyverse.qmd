@@ -25,12 +25,12 @@ Lo que aprenderemos hoy
 
 :::: {.columns}
 
-::: {.column width="40%"}
+::: {.column width="100%"}
 ### Preguntas
 + Data analysis in R using the tidyverse meta-package
 :::
 
-::: {.column width="60%"}
+::: {.column width="100%"}
 ### Objetivos
 + Describe the purpose of the dplyr and tidyr packages.
 + Describe several of their functions that are extremely useful to manipulate data.
