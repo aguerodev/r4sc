@@ -1,0 +1,47 @@
+---
+title: " Clase en vivo"
+subtitle: ""
+abstract: ""
+author: ""
+lang: "es"
+toc: true
+code-line-numbers: true
+code-copy: true
+format: html
+filters:
+  - webr
+webr: 
+  show-startup-message: false 
+  packages: ['tibble']
+bibliography: references.bib
+---
+
+## Detalles de la Reunión de Zoom para la Clase
+
++ **Fecha de la Clase**: 25 de julio de 2024
++ **Hora (UTC-6)**: 6:00 p.m
+
+---
+
+## Requisitos antes de ingresar a la clase
+
++ **Instalación Previa de Software**: 
+Debes tener ya instalado y configurado R y RStudio antes de participar en la sesión. Esto es crucial para poder seguir el ritmo de la clase y participar en los ejercicios de codificación en vivo. Si tienes dudas, puedes revisar la [guía de instalación](../instalacion_configuracion.qmd).
+
++ **Uso de Computadora**: La clase está diseñada para llevarse a cabo exclusivamente desde una computadora, no se recomienda participar desde dispositivos móviles o tablets. .
+
++ **Disponer de un Micrófono**: Es esencial para interactuar durante la sesión.
+
+
++ **Lectura del Código de Conducta**: Es fundamental leer y comprender el [Código de Conducta](../../codigo_conducta.qmd) antes de la clase.
+
+::: {.callout-warning appearance="simple"}
+Al ingresar a la sesión de Zoom, confirmas tu aceptación de los términos de nuestro [Código de Conducta](../../codigo_conducta.qmd). Es esencial mantener un ambiente respetuoso y constructivo durante nuestra reunión.
+:::
+
+Enlace para unirse a la Reunión de Zoom
+Para participar en la clase, por favor, haz clic en el siguiente botón en el momento indicado:
+
+
+[Unirse a la Reunión de Zoom](https://tally.so/r/woy9qe){.btn .btn-outline-primary .btn role="button"} 
+

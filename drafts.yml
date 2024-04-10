@@ -7,5 +7,7 @@ website:
     - codigo_conducta.qmd
     - clases/index.qmd
     - clases/instalacion_configuracion.qmd
-    - clases/intro_tidyverse.qmd
+    - clases/semana_1/zoom.qmd
+    - clases/semana_1/intro_tidyverse.qmd
+    - clases/semana_1/recursos.qmd
   draft-mode: visible

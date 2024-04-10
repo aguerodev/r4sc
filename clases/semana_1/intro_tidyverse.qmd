@@ -1,0 +1,125 @@
+---
+title: " Introducción a Tidyverse"
+subtitle: "Descubriendo una manera sencilla y divertida de relacionarnos con la computación y en análisis de los datos"
+lang: "es"
+toc: true
+code-line-numbers: true
+code-copy: true
+format: html
+include-in-header:
+  text: <script type="text/javascript" src="../../ajustes.js"></script>
+bibliography: references.bib
+editor_options: 
+  chunk_output_type: console
+---
+
+
+
+::: {.overview}
+
+:::{.overview-title}
+Lo que aprenderemos hoy
+:::
+
+:::{.overview-content}
+
+:::: {.columns}
+
+::: {.column width="40%"}
+### Preguntas
++ Data analysis in R using the tidyverse meta-package
+:::
+
+::: {.column width="60%"}
+### Objetivos
++ Describe the purpose of the dplyr and tidyr packages.
++ Describe several of their functions that are extremely useful to manipulate data.
++ Describe the concept of a wide and a long table format, and see how to reshape a data frame from one format to the other one.
++ Demonstrate how to join tables.
+:::
+
+
+
+::::
+
+
+:::
+:::
+
+
+::: {.discussion}
+
+::: {.callout-title}
+Ejercicio
+:::
+
+:::{.callout-content}
+Create a new data frame from the rna data that meets the following criteria: contains only the gene, chromosome_name, phenotype_description, sample, and expression columns. The expression values should be log-transformed. This data frame must only contain genes located on sex chromosomes, associated with a phenotype_description, and with a log expression higher than 5.
+
+Hint: think about how the commands should be ordered to produce this data frame!
+:::
+
+<details>
+  <summary>Muéstrame la solución</summary>
+  <div class = "details-content">
+
+```{r}
+x <- 1
+x
+```
+
+  More info about the details.
+  
+  
+  </div>
+</details>
+:::
+
+
+
+
+texto de un parrafo de prueba 
+
+::: {.keypoints}
+
+::: {.callout-title}
+Puntos Clave
+:::
+
+:::{.callout-content}
+1. Comienza simple y construye tus gráficos de manera iterativa.
+
+2. La función `ggplot()` inicia un gráfico, y las funciones `geom_` añaden representaciones de tus datos.
+
+3. Utiliza `aes()` cuando estés mapeando una variable desde los datos a una parte del gráfico.
+
+4. Usa `facet_` para particionar un gráfico en múltiples gráficos basados en un factor incluido en el conjunto de datos.
+
+5. Usa las funciones predefinidas `theme_` para cambiar ampliamente la apariencia, y la función `theme()` para ajustes finos.
+
+6. La biblioteca `patchwork` puede combinar gráficos separados en una sola figura.
+7. Utiliza ggsave() para guardar gráficos en tu formato y dimensiones favoritas.
+:::
+
+:::
+
+
+
+
+```{r}
+x <- 5
+x
+```
+
+
+
+
+# parte 1
+
+
+
+# parte 2
+
+# parte 3
+
+[@wickham_tidy_2014]

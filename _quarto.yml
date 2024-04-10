@@ -21,8 +21,6 @@ website:
         file: profesores.qmd
       - text: "FAQ"
         file: faq.qmd
-      - text: "Código de Conducta"
-        file: codigo_conducta.qmd
   sidebar:
     - id: tutorials
       title: "Clases"
@@ -36,11 +34,17 @@ website:
               href: clases/index.qmd
             - text: "Instalación y configuración"
               href: clases/instalacion_configuracion.qmd
+            - text: "Código de Conducta"
+              href: codigo_conducta.qmd
         - text: "---"
         - section: "Semana 1"
           contents:
+            - text: "Clase en vivo (zoom)"
+              href: clases/semana_1/zoom.qmd
             - text: "Introducción a tidyverse"
-              href: clases/intro_tidyverse.qmd
+              href: clases/semana_1/intro_tidyverse.qmd
+            - text: "Recursos"
+              href: clases/semana_1/recursos.qmd
         - text: "---"
 
 author:
@@ -67,7 +71,6 @@ format:
     grid:
       sidebar-width: 310px
     theme: seem-dark.scss
-    highlight-style: seem.theme
     metadata:
       pagetitle: "{{< meta title >}}"
       freeze: true

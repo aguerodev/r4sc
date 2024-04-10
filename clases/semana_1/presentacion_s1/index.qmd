@@ -1,0 +1,8 @@
+---
+title: "Untitled"
+format: revealjs
+resources:
+  - semana1.pdf
+---
+
+## hola

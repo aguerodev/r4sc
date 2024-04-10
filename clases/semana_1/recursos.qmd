@@ -1,0 +1,43 @@
+---
+title: "🎥 Grabación de la Clase y Materiales 📚"
+subtitle: ""
+abstract: ""
+author: ""
+lang: "es"
+toc: true
+code-line-numbers: true
+code-copy: true
+format: html
+filters:
+  - webr
+webr: 
+  show-startup-message: false 
+  packages: ['tibble']
+bibliography: references.bib
+---
+
+Una vez terminada la clase, tendrás acceso a la grabación y a todo el material de la lección en esta sección dentro de las siguientes 24 horas. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eRsGyueVLvQ?si=AjilWNsH1Owv4uaH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+::: {.callout-warning appearance="simple"}
+Recuerda guardar los enlaces importantes y descargar estos materiales, ya que el acceso a esta web terminará 15 días después de finalizado el curso.
+:::
+
+## Presentación y código
+
+<div>
+
+```{=html}
+<iframe class="slide-deck" src="presentacion_s1/"></iframe>
+```
+
+</div>
+
+[Descargar presentación en PDF](presentacion_s1/semana_1.pdf){.btn .btn-outline-primary .btn role="button"} 
+
+
+
+
+
+

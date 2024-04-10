@@ -1,6 +1,5 @@
 /*-- scss:defaults --*/
 
-$theme: "dark" !default;
 
 // Dark Theme Colors
 
@@ -208,8 +207,7 @@ div.quarto-post .thumbnail img { border-radius: .25rem; }
 .cell-output > pre, .cell-output > .sourceCode > pre, .cell-output-stdout > pre {
   margin-left: 0.8rem;
   margin-top: 0;
-  background: none;
-  border-left: 2px solid $blue;
+  background: #efefef;
   border-radius: 0;
 }
 
@@ -220,6 +218,16 @@ div.quarto-post .thumbnail img { border-radius: .25rem; }
 .cell-output > .sourceCode {
   background: none;
   margin-top: 0;
+}
+
+details div.sourceCode {
+  background-color:white ;
+  border: none;
+}
+
+div.sourceCode {
+  background-color:#F5F7F8 ;
+  border: none;
 }
 
 /* show_doc signature */
@@ -382,9 +390,17 @@ iframe {
  margin-bottom: 0em !important;
 }
 
+
+
 code{
-  color:#29ADB2;
+  color:#FF3EA5;
 }
+
+p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
+    background-color: #efefef !important;
+    padding: .2em;
+}
+
 
 .cell-output>pre, .cell-output>.sourceCode>pre, .cell-output-stdout>pre {
   
@@ -395,4 +411,209 @@ background: none;
 
 .qwebr-interactive-area{
   margin-top: 20px;
+}
+
+.slide-deck {
+  border: 3px solid #dee2e6;
+  width: 100%;
+  height: 500px;
+}
+
+
+
+.discussion {
+  margin-left: 42px;
+  margin-bottom: 25px;
+  border: none;
+  background-color: #F5F7F8;
+
+}
+
+.discussion .callout-square {
+    background: #fce762;
+        width: 50px;
+    height: 50px;
+    color: #fff;
+    background-image: url("img/thunder_black.png");
+    background-position: center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+
+
+.callout-square {
+    float: left;
+    position: relative;
+    left: -43px;
+}
+
+.callout-square img.img-fluid {
+    max-width: 55%;
+    padding: 2px;
+    padding-top: 10px;
+    display: block; 
+    margin: auto; 
+}
+
+.callout-square {
+    margin-left: 0px;
+    width: 45px;
+    height: 45px;
+    color: #fff;
+    margin-right: -15px;
+}
+
+.callout-content {
+    border-left: 10px solid #fce762 !important;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+
+.details-content {
+    margin-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+.callout-title {
+    border-left: 10px solid #fce762 !important;
+    position: relative;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin: 0px 0px -20px 0px;
+    padding: 20px 0px 20px 0px;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+
+details {
+  
+  background-color: #F5F7F8;
+}
+
+details>summary {
+    font-size: 1.25rem !important;
+    font-weight: 400;
+    color: #000;
+    background: #fce762;
+    padding-left: 12px !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+details>summary {
+    font-size: 1.25rem !important;
+    font-weight: 400;
+    color: #000;
+    background: #fce762;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+details div.cell-output {
+    background-color: white;
+    margin-top: 10px;
+    padding-top: 2px;
+    border: none !important;
+}
+
+
+.keypoints{
+  margin-left: 42px;
+  margin-bottom: 25px;
+  border: none;
+  background-color: #F5F7F8;
+
+}
+
+.keypoints .callout-square {
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    background: #BFDCE5;
+    background-image: url("img/check-list.png");
+    background-position: center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+
+
+.keypoints .callout-title {
+    border-left: 10px solid #BFDCE5 !important;
+    position: relative;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin: 0px 0px -20px 0px;
+    padding: 20px 0px 20px 0px;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+
+.keypoints .callout-content {
+    border-left: 10px solid #BFDCE5 !important;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.overview-title {
+  text-transform: uppercase;
+color: #fff;
+background: #3D3B40;
+border-radius: 0px;
+border: none;
+height: 53px;
+padding-top: 10px;
+padding-left: 25px;
+font-size: min(1.5rem,1.25rem + .2vw);
+letter-spacing: .1em;
+font-weight: 400;
+}
+
+.overview h3{
+text-decoration: underline;
+text-decoration-thickness: 1px;
+text-underline-offset: 25px;
+margin-bottom: 50px;
+font-size: min(1.5rem,1.25rem + .25vw);
+font-weight: 600;
+line-height: 1.5rem;
+}
+
+.overview-content{
+  background-color: #F5F7F8;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+}
+
+.overview{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.overview-content .columns .column:last-child:after {
+    content: ""; /* Necesario para que el pseudo-elemento se genere */
+    display: block;
+    position: absolute;
+    left: 0; /* Alinea el pseudo-elemento al lado izquierdo del .column */
+    top: 10%; /* Ajusta este valor para controlar dónde comienza el borde */
+    bottom: 10%; /* Ajusta este valor para controlar dónde termina el borde */
+    width: 1px; /* El grosor del "borde" */
+    background-color: #393646; /* El color del "borde" */
+}
+
+.overview-content .columns .column:last-child {
+    position: relative; /* Necesario para posicionar correctamente el pseudo-elemento */
+    padding-left: 20px;
 }
