@@ -274,7 +274,7 @@
     "href": "clases/semana_1/intro_tidyverse.html",
     "title": "Introducción a Tidyverse",
     "section": "",
-    "text": "Lo que aprenderemos hoy\n\n\n\n\n\nPreguntas\n\nData analysis in R using the tidyverse meta-package\n\n\n\n\nObjetivos\n\nDescribe the purpose of the dplyr and tidyr packages.\nDescribe several of their functions that are extremely useful to manipulate data.\nDescribe the concept of a wide and a long table format, and see how to reshape a data frame from one format to the other one.\nDemonstrate how to join tables.\n\n\n\n\n\n\n\n\nEjercicio\n\n\nCreate a new data frame from the rna data that meets the following criteria: contains only the gene, chromosome_name, phenotype_description, sample, and expression columns. The expression values should be log-transformed. This data frame must only contain genes located on sex chromosomes, associated with a phenotype_description, and with a log expression higher than 5.\nHint: think about how the commands should be ordered to produce this data frame!\n\n\n\nMuéstrame la solución\n\n\n\nx &lt;- 1\nx\n\n[1] 1\n\n\nMore info about the details.\n\n\n\ntexto de un parrafo de prueba\n\n\nPuntos Clave\n\n\n\nComienza simple y construye tus gráficos de manera iterativa.\nLa función ggplot() inicia un gráfico, y las funciones geom_ añaden representaciones de tus datos.\nUtiliza aes() cuando estés mapeando una variable desde los datos a una parte del gráfico.\nUsa facet_ para particionar un gráfico en múltiples gráficos basados en un factor incluido en el conjunto de datos.\nUsa las funciones predefinidas theme_ para cambiar ampliamente la apariencia, y la función theme() para ajustes finos.\nLa biblioteca patchwork puede combinar gráficos separados en una sola figura.\nUtiliza ggsave() para guardar gráficos en tu formato y dimensiones favoritas.\n\n\n\n\nx &lt;- 5\nx\n\n[1] 5\n\n\n\nparte 1\n\n\nparte 2\n\n\nparte 3\n(Wickham 2014)\n\n\n\n\n\nReferencias\n\nWickham, Hadley. 2014. «Tidy Data». Journal of Statistical Software 59 (10). https://doi.org/10.18637/jss.v059.i10.\n\nReutilizaciónEste trabajo está licenciado bajo la Licencia Internacional  Creative Commons Atribución-NoComercial-SinDerivadas 4.0 (CC BY-NC-ND 4.0). Eres libre de compartir este material siempre que otorgues el crédito adecuado, no lo utilices para fines comerciales, y no hagas obras derivadas.\n(Ver Licencia)Derechos de autorCopyright nombre de los cursos. 2024. Todos los derechos reservados.",
+    "text": "Lo que aprenderemos hoy\n\n\n\n\n\n\n\n¿Qué tan difícil es aprender a programar para un investigador de ciencias sociales?\n¿Por qué es R considerado un lenguaje amigable para quienes no son programadores?\n¿Qué posibilidades ofrece R para analizar diferentes tipos de datos?\n\n\n\n\n\n\nComprender las razones por las cuales R es una herramienta poderosa para el análisis de datos, especialmente para principiantes en programación.\nIdentificar y trabajar con diversos tipos de datos en R.\nAprender a importar conjuntos de datos a R desde diferentes fuentes.\nUtilizar las funciones select, filter, y arrange de dplyr para manipular y preparar datos.\nRealizar conteos y resúmenes estadísticos básicos con la función count.\nCrear un gráfico de barras simple para visualizar datos, utilizando ggplot2.",
     "crumbs": [
       "Lecciones",
       "Semana 1",
@@ -378,6 +378,42 @@
     "title": "Introducción a Tidyverse",
     "section": "Proofs",
     "text": "Proofs\nSome proofs are given here.",
+    "crumbs": [
+      "Lecciones",
+      "Semana 1",
+      "Introducción a tidyverse"
+    ]
+  },
+  {
+    "objectID": "clases/semana_1/intro_tidyverse.html#parte-1",
+    "href": "clases/semana_1/intro_tidyverse.html#parte-1",
+    "title": "Introducción a Tidyverse",
+    "section": "parte 1",
+    "text": "parte 1",
+    "crumbs": [
+      "Lecciones",
+      "Semana 1",
+      "Introducción a tidyverse"
+    ]
+  },
+  {
+    "objectID": "clases/semana_1/intro_tidyverse.html#que-es-tidyverse",
+    "href": "clases/semana_1/intro_tidyverse.html#que-es-tidyverse",
+    "title": "Introducción a Tidyverse",
+    "section": "que es tidyverse?",
+    "text": "que es tidyverse?\n\n\nEjercicio\n\n\nEn los datos descargados encontrarás un archivo llamado cantones.csv que contiene información sobre los cantones de Costa Rica. Vamos a cargar este archivo en R para poder analizarlo.\nPasos ante de comenzar el ejercicio:\n\nAsegúrate de tener el paquete readr instalado. Si no lo tienes, instálalo con install.packages(\"readr\").\nCarga el paquete readr usando la instrucción library(readr).\nUsa la función read_csv para cargar cantones.csv en una variable llamada datos_cantones.\nRevisa las primeras filas del conjunto de datos con head(datos_cantones) para asegurarte de que se haya cargado correctamente.\n\n\n\n\nClic para ver la solución\n\n\nTu código final debería parecerse a esto. Si no acertaste en el primer intento, no hay problema. Simplemente copia y pega este código en RStudio para avanzar con los próximos ejercicios.\n\nlibrary(readr)\n\ndatos_cantones &lt;- read_csv(\"cantones.csv\")\n\n\n\n\ntexto de un parrafo de prueba\n\n\nPuntos Clave\n\n\n\nComienza simple y construye tus gráficos de manera iterativa.\nLa función ggplot() inicia un gráfico, y las funciones geom_ añaden representaciones de tus datos.\nUtiliza aes() cuando estés mapeando una variable desde los datos a una parte del gráfico.\nUsa facet_ para particionar un gráfico en múltiples gráficos basados en un factor incluido en el conjunto de datos.\nUsa las funciones predefinidas theme_ para cambiar ampliamente la apariencia, y la función theme() para ajustes finos.\nLa biblioteca patchwork puede combinar gráficos separados en una sola figura.\nUtiliza ggsave() para guardar gráficos en tu formato y dimensiones favoritas.\n\n\n\n\nx &lt;- 5\nx\n\n[1] 5",
+    "crumbs": [
+      "Lecciones",
+      "Semana 1",
+      "Introducción a tidyverse"
+    ]
+  },
+  {
+    "objectID": "clases/semana_1/intro_tidyverse.html#qué-es-tidyverse",
+    "href": "clases/semana_1/intro_tidyverse.html#qué-es-tidyverse",
+    "title": "Introducción a Tidyverse",
+    "section": "¿Qué es Tidyverse?",
+    "text": "¿Qué es Tidyverse?\n\n\nEjercicio 1\n\n\nEn los datos descargados encontrarás un archivo llamado cantones.csv que contiene información sobre los cantones de Costa Rica. Vamos a cargar este archivo en R para poder analizarlo.\nPasos a seguir:\n\nAsegúrate de tener el paquete readr instalado. Si no lo tienes, instálalo con install.packages(\"readr\").\nCarga el paquete readr usando la instrucción library(readr).\nUsa la función read_csv para cargar cantones.csv en una variable llamada datos_cantones.\nRevisa las primeras filas del conjunto de datos con head(datos_cantones) para asegurarte de que se haya cargado correctamente.\n\n\n\n\nClic para ver la solución\n\n\nTu código final debería parecerse a esto. Si no acertaste en el primer intento, no hay problema. Simplemente copia y pega este código en RStudio para avanzar con los próximos ejercicios.\n\nlibrary(readr)\n\ndatos_cantones &lt;- read_csv(\"cantones.csv\")\n\n\n\n\ntexto de un parrafo de prueba\n\n\nPuntos Clave\n\n\n\nComienza simple y construye tus gráficos de manera iterativa.\nLa función ggplot() inicia un gráfico, y las funciones geom_ añaden representaciones de tus datos.\nUtiliza aes() cuando estés mapeando una variable desde los datos a una parte del gráfico.\nUsa facet_ para particionar un gráfico en múltiples gráficos basados en un factor incluido en el conjunto de datos.\nUsa las funciones predefinidas theme_ para cambiar ampliamente la apariencia, y la función theme() para ajustes finos.\nLa biblioteca patchwork puede combinar gráficos separados en una sola figura.\nUtiliza ggsave() para guardar gráficos en tu formato y dimensiones favoritas.\n\n\n\n\nx &lt;- 5\nx\n\n[1] 5",
     "crumbs": [
       "Lecciones",
       "Semana 1",

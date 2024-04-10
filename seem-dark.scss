@@ -1,4 +1,6 @@
 /*-- scss:defaults --*/
+// Importar Fira Code desde Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
 
 // Dark Theme Colors
@@ -134,12 +136,12 @@ font-weight: 700;
   // Estilos generales para los enlaces dentro de la navbar, si los hay
   
   &:hover {
-    color: #FFEBB2; // Color al pasar el ratón por encima
+    color: #fce762; // Color al pasar el ratón por encima
   }
 
   &.active {
     font-weight: bold; // Texto en negrita para ítem activo
-    color: #FFEBB2; // Color para ítem activo
+    color: #fce762; // Color para ítem activo
   }
 }
 
@@ -269,12 +271,18 @@ h1, .h1, h2, .h2 {
   margin-bottom: 1rem;
 }
 
-h2 {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  border-bottom: none;
-  font-size: 25.95px;
-  font-weight: bold;
+// Aplicar Fira Code a elementos <pre>
+.sourceCode {
+  font-family: 'Fira Code', monospace;
+  font-size: 16px;
+}
+
+.title h2 {
+    font-size: 1.8rem;
+    line-height: 1.75rem;
+    text-transform: uppercase;
+    letter-spacing: .01em;
+    margin-bottom: 25px;
 }
 
 @media (max-width: 991.98px) {
@@ -496,22 +504,14 @@ details {
   background-color: #F5F7F8;
 }
 
-details>summary {
-    font-size: 1.25rem !important;
-    font-weight: 400;
-    color: #000;
-    background: #fce762;
-    padding-left: 12px !important;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
+
 
 details>summary {
     font-size: 1.25rem !important;
     font-weight: 400;
     color: #000;
     background: #fce762;
-    padding-left: 5px;
+    padding-left: 12px !important;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -599,7 +599,7 @@ line-height: 1.5rem;
 
 .overview{
   margin-top: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .overview-content .columns .column:last-child:after {

@@ -56,27 +56,7 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -253,9 +233,7 @@ div.csl-indent {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#parte-1" id="toc-parte-1" class="nav-link active" data-scroll-target="#parte-1">parte 1</a></li>
-  <li><a href="#parte-2" id="toc-parte-2" class="nav-link" data-scroll-target="#parte-2">parte 2</a></li>
-  <li><a href="#parte-3" id="toc-parte-3" class="nav-link" data-scroll-target="#parte-3">parte 3</a></li>
+  <li><a href="#qué-es-tidyverse" id="toc-qué-es-tidyverse" class="nav-link active" data-scroll-target="#qué-es-tidyverse">¿Qué es Tidyverse?</a></li>
   </ul>
 </nav>
     </div>
@@ -313,44 +291,54 @@ div.csl-indent {
 <section id="preguntas" class="level3">
 <h3 class="anchored" data-anchor-id="preguntas">Preguntas</h3>
 <ul>
-<li>Data analysis in R using the tidyverse meta-package</li>
+<li>¿Qué tan difícil es aprender a programar para un investigador de ciencias sociales?</li>
+<li>¿Por qué es R considerado un lenguaje amigable para quienes no son programadores?</li>
+<li>¿Qué posibilidades ofrece R para analizar diferentes tipos de datos?</li>
 </ul>
 </section>
 </div><div class="column" style="width:100%;">
 <section id="objetivos" class="level3">
 <h3 class="anchored" data-anchor-id="objetivos">Objetivos</h3>
 <ul>
-<li>Describe the purpose of the dplyr and tidyr packages.</li>
-<li>Describe several of their functions that are extremely useful to manipulate data.</li>
-<li>Describe the concept of a wide and a long table format, and see how to reshape a data frame from one format to the other one.</li>
-<li>Demonstrate how to join tables.</li>
+<li>Comprender las razones por las cuales R es una herramienta poderosa para el análisis de datos, especialmente para principiantes en programación.</li>
+<li>Identificar y trabajar con diversos tipos de datos en R.</li>
+<li>Aprender a importar conjuntos de datos a R desde diferentes fuentes.</li>
+<li>Utilizar las funciones select, filter, y arrange de dplyr para manipular y preparar datos.</li>
+<li>Realizar conteos y resúmenes estadísticos básicos con la función count.</li>
+<li>Crear un gráfico de barras simple para visualizar datos, utilizando ggplot2.</li>
 </ul>
 </section>
 </div>
 </div>
 </div>
 </div>
+<section id="qué-es-tidyverse" class="level2 title">
+<h2 class="title anchored" data-anchor-id="qué-es-tidyverse">¿Qué es Tidyverse?</h2>
 <div class="discussion">
 <div class="callout-title">
-<p>Ejercicio</p>
+<p>Ejercicio 1</p>
 </div>
 <div class="callout-content">
-<p>Create a new data frame from the rna data that meets the following criteria: contains only the gene, chromosome_name, phenotype_description, sample, and expression columns. The expression values should be log-transformed. This data frame must only contain genes located on sex chromosomes, associated with a phenotype_description, and with a log expression higher than 5.</p>
-<p>Hint: think about how the commands should be ordered to produce this data frame!</p>
+<p>En los datos descargados encontrarás un archivo llamado <code>cantones.csv</code> que contiene información sobre los cantones de Costa Rica. Vamos a cargar este archivo en R para poder analizarlo.</p>
+<p><strong>Pasos a seguir:</strong></p>
+<ul>
+<li>Asegúrate de tener el paquete <code>readr</code> instalado. Si no lo tienes, instálalo con <code>install.packages("readr")</code>.</li>
+<li>Carga el paquete <code>readr</code> usando la instrucción <code>library(readr)</code>.</li>
+<li>Usa la función <code>read_csv</code> para cargar <code>cantones.csv</code> en una variable llamada <code>datos_cantones</code>.</li>
+<li>Revisa las primeras filas del conjunto de datos con <code>head(datos_cantones)</code> para asegurarte de que se haya cargado correctamente.</li>
+</ul>
 </div>
 <details>
 <summary>
-Muéstrame la solución
+Clic para ver la solución
 </summary>
 <div class="details-content">
+<p>Tu código final debería parecerse a esto. Si no acertaste en el primer intento, no hay problema. Simplemente copia y pega este código en RStudio para avanzar con los próximos ejercicios.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a>x <span class="ot">&lt;-</span> <span class="dv">1</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a>x</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 1</code></pre>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">library</span>(readr)</span>
+<span id="cb1-2"><a href="#cb1-2"></a></span>
+<span id="cb1-3"><a href="#cb1-3"></a>datos_cantones <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"cantones.csv"</span>)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-</div>
-<p>More info about the details.</p>
 </div>
 </details>
 </div>
@@ -372,31 +360,17 @@ Muéstrame la solución
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a>x <span class="ot">&lt;-</span> <span class="dv">5</span></span>
-<span id="cb3-2"><a href="#cb3-2"></a>x</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a>x <span class="ot">&lt;-</span> <span class="dv">5</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a>x</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 5</code></pre>
 </div>
 </div>
-<section id="parte-1" class="level1">
-<h1>parte 1</h1>
-</section>
-<section id="parte-2" class="level1">
-<h1>parte 2</h1>
-</section>
-<section id="parte-3" class="level1">
-<h1>parte 3</h1>
-<p><span class="citation" data-cites="wickham_tidy_2014">(<a href="#ref-wickham_tidy_2014" role="doc-biblioref">Wickham 2014</a>)</span></p>
-
 
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referencias</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-wickham_tidy_2014" class="csl-entry" role="listitem">
-Wickham, Hadley. 2014. <span>«Tidy <span>Data</span>»</span>. <em>Journal of Statistical Software</em> 59 (10). <a href="https://doi.org/10.18637/jss.v059.i10">https://doi.org/10.18637/jss.v059.i10</a>.
-</div>
-</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reutilización</h2><div class="quarto-appendix-contents"><div>Este trabajo está licenciado bajo la Licencia Internacional  Creative Commons Atribución-NoComercial-SinDerivadas 4.0 (CC BY-NC-ND 4.0). Eres libre de compartir este material siempre que otorgues el crédito adecuado, no lo utilices para fines comerciales, y no hagas obras derivadas.
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reutilización</h2><div class="quarto-appendix-contents"><div>Este trabajo está licenciado bajo la Licencia Internacional  Creative Commons Atribución-NoComercial-SinDerivadas 4.0 (CC BY-NC-ND 4.0). Eres libre de compartir este material siempre que otorgues el crédito adecuado, no lo utilices para fines comerciales, y no hagas obras derivadas.
 <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es">(Ver Licencia)</a></div></div></section><section class="quarto-appendix-contents" id="quarto-copyright"><h2 class="anchored quarto-appendix-heading">Derechos de autor</h2><div class="quarto-appendix-contents"><div>Copyright nombre de los cursos. 2024. Todos los derechos reservados.</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

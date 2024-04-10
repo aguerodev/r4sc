@@ -27,51 +27,63 @@ Lo que aprenderemos hoy
 
 ::: {.column width="100%"}
 ### Preguntas
-+ Data analysis in R using the tidyverse meta-package
++ ¿Qué tan difícil es aprender a programar para un investigador de ciencias sociales?
++ ¿Por qué es R considerado un lenguaje amigable para quienes no son programadores?
++ ¿Qué posibilidades ofrece R para analizar diferentes tipos de datos?
 :::
 
 ::: {.column width="100%"}
 ### Objetivos
-+ Describe the purpose of the dplyr and tidyr packages.
-+ Describe several of their functions that are extremely useful to manipulate data.
-+ Describe the concept of a wide and a long table format, and see how to reshape a data frame from one format to the other one.
-+ Demonstrate how to join tables.
++ Comprender las razones por las cuales R es una herramienta poderosa para el análisis de datos, especialmente para principiantes en programación.
++ Identificar y trabajar con diversos tipos de datos en R.
++ Aprender a importar conjuntos de datos a R desde diferentes fuentes.
++ Utilizar las funciones select, filter, y arrange de dplyr para manipular y preparar datos.
++ Realizar conteos y resúmenes estadísticos básicos con la función count.
++ Crear un gráfico de barras simple para visualizar datos, utilizando ggplot2.
 :::
-
-
-
 ::::
-
-
 :::
 :::
+
+## ¿Qué es Tidyverse?{.title}
 
 
 ::: {.discussion}
 
 ::: {.callout-title}
-Ejercicio
+Ejercicio 1
 :::
 
 :::{.callout-content}
-Create a new data frame from the rna data that meets the following criteria: contains only the gene, chromosome_name, phenotype_description, sample, and expression columns. The expression values should be log-transformed. This data frame must only contain genes located on sex chromosomes, associated with a phenotype_description, and with a log expression higher than 5.
+En los datos descargados encontrarás un archivo llamado `cantones.csv` que contiene información sobre los cantones de Costa Rica. Vamos a cargar este archivo en R para poder analizarlo.
 
-Hint: think about how the commands should be ordered to produce this data frame!
+**Pasos a seguir:**
+
++ Asegúrate de tener el paquete `readr` instalado. Si no lo tienes, instálalo con `install.packages("readr")`.
++ Carga el paquete `readr` usando la instrucción `library(readr)`.
++ Usa la función `read_csv` para cargar `cantones.csv` en una variable llamada `datos_cantones`.
++ Revisa las primeras filas del conjunto de datos con `head(datos_cantones)` para asegurarte de que se haya cargado correctamente.
 :::
 
 <details>
-  <summary>Muéstrame la solución</summary>
+  <summary>Clic para ver la solución</summary>
   <div class = "details-content">
 
+
+Tu código final debería parecerse a esto. Si no acertaste en el primer intento, no hay problema. Simplemente copia y pega este código en RStudio para avanzar con los próximos ejercicios.
+
 ```{r}
-x <- 1
-x
+#| eval: false
+
+
+library(readr)
+
+datos_cantones <- read_csv("cantones.csv")
 ```
 
-  More info about the details.
+
   
-  
-  </div>
+</div>
 </details>
 :::
 
@@ -114,12 +126,6 @@ x
 
 
 
-# parte 1
 
 
 
-# parte 2
-
-# parte 3
-
-[@wickham_tidy_2014]
