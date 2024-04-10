@@ -9,6 +9,7 @@ project:
 website:
   bread-crumbs: true
   navbar:
+    logo: img/logo.svg
     background: primary
     left:
       - text: "Inicio"
@@ -48,9 +49,6 @@ website:
         - text: "---"
 
 author:
-  - name: Anthony García-Marín
-    affiliations: "Researcher | Data Analyst | Professor"
-    email: email@gmail.com
   - name: "Carlos Aguero Barquero"
     affiliations: "Software Engineer | RStudio Instructor | The Carpentries"
     email: emai2@gmail.com
