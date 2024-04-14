@@ -1,0 +1,26 @@
+---
+title: "Untitled"
+author: "Carlos Aguero "
+format: revealjs
+---
+
+
+![](../img/logo.png){.absolute top=25% height="50%"}
+
+
+---
+
+::::: {.columns style='display: flex !important; height: 90%;'}
+
+::: {.column width="20%" style='display: flex; justify-content: center; align-items: center;'}
+
+### Es super importante la interacción durante la clase
+
+:::
+
+::: {.column width="80%" style='display: flex; justify-content: center; align-items: center;'}
+![](../img/reacciones.png)
+:::
+
+::::
+
