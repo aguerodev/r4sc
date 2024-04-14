@@ -7,7 +7,6 @@ project:
     port: 4200
 
 website:
-  bread-crumbs: true
   navbar:
     logo: img/logo.svg
     background: primary
@@ -79,6 +78,3 @@ format:
       # toc: true
       title-block-categories: false
       toc-depth: 5
-
-metadata-files:
-  - drafts.yml
