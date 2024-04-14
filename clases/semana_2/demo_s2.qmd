@@ -1,0 +1,20 @@
+---
+title: "Titulo demo s2"
+subtitle: "subtitulo s2"
+description: "descripcion s2"
+lang: "es"
+toc: true
+code-line-numbers: true
+code-copy: true
+format: html
+include-in-header:
+  text: <script type="text/javascript" src="../../ajustes.js"></script>
+bibliography: references.bib
+editor_options: 
+  chunk_output_type: console
+---
+
+<iframe data-tally-src="https://tally.so/embed/3xpOly?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="227" frameborder="0" marginheight="0" marginwidth="0" title="Subir Tarea"></iframe><script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+
+
+[@wickham_tidy_2014]

@@ -52,7 +52,7 @@
     "href": "obtener_ayuda.html",
     "title": "Obtener Ayuda",
     "section": "",
-    "text": "link\n\n\n\nReutilizaciónEste trabajo está licenciado bajo la Licencia Internacional  Creative Commons Atribución-NoComercial-SinDerivadas 4.0 (CC BY-NC-ND 4.0). Eres libre de compartir este material siempre que otorgues el crédito adecuado, no lo utilices para fines comerciales, y no hagas obras derivadas.\nDerechos de autorCopyright nombre de los cursos. 2024. Todos los derechos reservados."
+    "text": "link\n\n\n\nReutilizaciónEste trabajo está licenciado bajo la Licencia Internacional  Creative Commons Atribución-NoComercial-SinDerivadas 4.0 (CC BY-NC-ND 4.0). Eres libre de compartir este material siempre que otorgues el crédito adecuado, no lo utilices para fines comerciales, y no hagas obras derivadas.\n(Ver Licencia)Derechos de autorCopyright nombre de los cursos. 2024. Todos los derechos reservados."
   },
   {
     "objectID": "faq.html",
@@ -101,7 +101,12 @@
     "href": "clases/index.html",
     "title": "Ciencia de datos con R",
     "section": "",
-    "text": "parte 1\n\n\nparte 2\n\n\nparte 3\n(Wickham 2014)\n\n\n\n\n\nReferencias\n\nWickham, Hadley. 2014. «Tidy Data». Journal of Statistical Software 59 (10). https://doi.org/10.18637/jss.v059.i10.\n\nReutilizaciónEste trabajo está licenciado bajo la Licencia Internacional  Creative Commons Atribución-NoComercial-SinDerivadas 4.0 (CC BY-NC-ND 4.0). Eres libre de compartir este material siempre que otorgues el crédito adecuado, no lo utilices para fines comerciales, y no hagas obras derivadas.\nDerechos de autorCopyright nombre de los cursos. 2024. Todos los derechos reservados."
+    "text": "parte 1\n\n\nparte 2\n\n\nparte 3\n(Wickham 2014)\n\n\n\n\n\nReferencias\n\nWickham, Hadley. 2014. «Tidy Data». Journal of Statistical Software 59 (10). https://doi.org/10.18637/jss.v059.i10.\n\nReutilizaciónEste trabajo está licenciado bajo la Licencia Internacional  Creative Commons Atribución-NoComercial-SinDerivadas 4.0 (CC BY-NC-ND 4.0). Eres libre de compartir este material siempre que otorgues el crédito adecuado, no lo utilices para fines comerciales, y no hagas obras derivadas.\n(Ver Licencia)Derechos de autorCopyright nombre de los cursos. 2024. Todos los derechos reservados.",
+    "crumbs": [
+      "Lecciones",
+      "Antes de comenzar",
+      "Presentación"
+    ]
   },
   {
     "objectID": "clases/intro_tidyverse.html",
@@ -180,7 +185,7 @@
     "href": "index.html",
     "title": "Ciencia de datos con R",
     "section": "",
-    "text": "ReutilizaciónEste trabajo está licenciado bajo la Licencia Internacional  Creative Commons Atribución-NoComercial-SinDerivadas 4.0 (CC BY-NC-ND 4.0). Eres libre de compartir este material siempre que otorgues el crédito adecuado, no lo utilices para fines comerciales, y no hagas obras derivadas.\nDerechos de autorCopyright nombre de los cursos. 2024. Todos los derechos reservados."
+    "text": "ReutilizaciónEste trabajo está licenciado bajo la Licencia Internacional  Creative Commons Atribución-NoComercial-SinDerivadas 4.0 (CC BY-NC-ND 4.0). Eres libre de compartir este material siempre que otorgues el crédito adecuado, no lo utilices para fines comerciales, y no hagas obras derivadas.\n(Ver Licencia)Derechos de autorCopyright nombre de los cursos. 2024. Todos los derechos reservados."
   },
   {
     "objectID": "profesores.html",
@@ -401,5 +406,17 @@
     "title": "Untitled",
     "section": "Es super importante la interacción durante la clase",
     "text": "Es super importante la interacción durante la clase"
+  },
+  {
+    "objectID": "clases/semana_2/demo_s2.html",
+    "href": "clases/semana_2/demo_s2.html",
+    "title": "Titulo demo s2",
+    "section": "",
+    "text": "(Wickham 2014)\n\n\n\n\nReferencias\n\nWickham, Hadley. 2014. «Tidy Data». Journal of Statistical Software 59 (10). https://doi.org/10.18637/jss.v059.i10.\n\nReutilizaciónEste trabajo está licenciado bajo la Licencia Internacional  Creative Commons Atribución-NoComercial-SinDerivadas 4.0 (CC BY-NC-ND 4.0). Eres libre de compartir este material siempre que otorgues el crédito adecuado, no lo utilices para fines comerciales, y no hagas obras derivadas.\n(Ver Licencia)Derechos de autorCopyright nombre de los cursos. 2024. Todos los derechos reservados.",
+    "crumbs": [
+      "Lecciones",
+      "Semana 2",
+      "demo s2"
+    ]
   }
 ]

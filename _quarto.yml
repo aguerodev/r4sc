@@ -46,10 +46,18 @@ website:
             - text: "Recursos"
               href: clases/semana_1/recursos.qmd
         - text: "---"
+        - section: "Semana 2"
+          contents:
+            - text: "demo s2"
+              href: clases/semana_2/demo_s2.qmd
+        - text: "---"
 
 author:
   - name: "Carlos Aguero Barquero"
     affiliations: "Software Engineer | RStudio Instructor | The Carpentries"
+    email: emai2@gmail.com
+  - name: "nombre"
+    affiliations: "texto"
     email: emai2@gmail.com
 copyright: 
   statement: "Copyright nombre de los cursos. 2024. Todos los derechos reservados."
